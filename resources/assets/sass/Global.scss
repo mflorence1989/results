@@ -1,0 +1,43 @@
+body{
+  color: $black;
+}
+h2{
+  font-size: 2rem;
+  font-family: $displayFont;
+  margin: .5rem 0 1rem;
+  text-transform: capitalize;
+  color: $black;
+}
+
+h5{
+  
+  color: $black;
+  font-size: 0.9rem;
+  margin: .5rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+  p{
+    font-size: 0.8rem;
+    color: $paragraphColor;
+    line-height: 1.5;
+    margin: .5rem 0 1rem;
+    font-weight: 300;
+
+  }
+  a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    &:hover{
+      color: $red;
+      text-decoration: none;
+    }
+
+  }
+  strong{
+    font-weight: 600;
+  }
+  em{
+    font-style:italic;
+  }

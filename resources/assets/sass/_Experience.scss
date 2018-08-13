@@ -1,0 +1,54 @@
+
+#Reviews{
+  padding: 100px 0;
+text-align:right;
+.side-img{
+  text-align: left;
+  position: relative;
+  img{
+    position: absolute;
+    height: 300px;
+
+  }
+}
+h2{
+  margin-bottom: 3rem;
+}
+h4{
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+
+.author{
+  font-size: 0.8rem;
+  color: $paragraphColor;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+
+  strong{
+    font-weight: 700;
+    color: $black;
+
+
+  }
+
+}
+.arrows{
+    .fa-arrow-left,
+    .fa-arrow-right{
+      font-size: 1.5rem;
+      padding:20px 10px;
+      cursor: pointer;
+      color: $paragraphColor;
+
+    }
+    .fa-arrow-left.ready,
+    .fa-arrow-right.ready{
+      color:$black;
+    }
+}
+
+}

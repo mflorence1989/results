@@ -1,0 +1,121 @@
+#SpecialMenu{
+  padding: 100px 0;
+  background: $greyBG;
+  //background: url("https://n6-img-fp.akamaized.net/free-vector/white-canvas-background_1053-239.jpg?size=338&ext=jpg");
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  h2,h5{
+    text-align: center;
+  }
+    .box{
+      background: white;
+      padding: 20px;
+      margin-top: 40px;
+      // .box-img{
+      //   width:100%;
+      //   height:200px;
+      //   background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/3/Screenshot_from_2018-03-27_22-43-09.png");
+      //   background-size: cover;
+      //   background-position: center;
+      //   position: relative;
+      //   margin-bottom: 75px;
+      //
+      // }
+      a{
+        text-decoration: none;
+        color: pink;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      .box-img-one{
+        width:100%;
+        height:200px;
+        background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/3/Screenshot_from_2018-03-27_22-43-09.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom: 75px;
+
+      }
+      .box-img-two{
+        width:100%;
+        height:200px;
+        background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/4/Screenshot_from_2018-04-09_00-03-01.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom: 75px;
+
+      }
+      .box-img-three{
+        width:100%;
+        height:200px;
+        background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/5/laster_email.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom: 75px;
+
+      }
+      .box-img-four{
+        width:100%;
+        height:200px;
+        background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/2/oddgigs.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom: 75px;
+
+      }
+      .box-img-five{
+        width:100%;
+        height:200px;
+        background: url("https://s8.postimg.cc/xl2fxo2t1/tuition_picture.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom: 75px;
+
+      }
+      .price-circle{
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+        margin: 0 auto;
+        font-family: $displayFont;
+        font-size: 2.5rem;
+        background: white;
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.41);
+
+      }
+      .title{
+        display: block;
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-align: center;
+        display: block;
+      }
+      .details{
+        font-weight: 300;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 2;
+        margin:0;
+      }
+    }
+    .boxes{
+      padding-bottom: 50px;
+    }
+
+}
