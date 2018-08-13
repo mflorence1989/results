@@ -3,10 +3,9 @@
   <div class="container">
 
   <nav>
-  <a href="/portfolio">Portfolio</a>
-  <a href="/about">About</a>
-  <a href="/contact">Contact</a>
-  <a href="/experience">Experience</a>
+    <router-link to="/about"  active-class="active"><a>About</a></router-link>
+    <router-link to="/portfolio"  active-class="active">Portfolio</router-link>
+    <router-link to="/experience"  active-class="active"><a>Experience</a></router-link>
 
   </nav>
 </div>

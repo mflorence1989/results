@@ -1,7 +1,7 @@
 <template>
   <div id="app">
         <router-view name="header-top"></router-view>
-        <portfolio></portfolio>
+
         <transition name="slide" mode="out-in">
           <router-view></router-view>
         </transition>
@@ -11,13 +11,12 @@
 
 <script>
     import Header from './components/Header.vue';
-    import Portfolio from './components/Portfolio.vue';
-
+  
 
     export default {
         components: {
             appHeader: Header,
-            appPortfolio: Portfolio
+
 
         }
     }
