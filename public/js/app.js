@@ -567,7 +567,7 @@ module.exports = Component.exports
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(44)
 /* template */
 var __vue_template__ = __webpack_require__(30)
 /* template functional */
@@ -15331,7 +15331,16 @@ var staticRenderFns = [
         _c("div", { staticClass: "quote" }, [
           _vm._v('"I turn visions into visuals." -'),
           _c("strong", [_vm._v(" Mario Florence")])
-        ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "reserve-btn",
+            attrs: { href: "https://www.linkedin.com/in/mario-florence/" }
+          },
+          [_vm._v("LinkedIN")]
+        )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-6" }, [
@@ -15830,6 +15839,48 @@ var routes = [{
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    methods: {
+        navigateToHome: function navigateToHome() {
+            this.$router.push({ name: 'home' });
+        }
+    }
+});
 
 /***/ })
 /******/ ]);

@@ -9,7 +9,7 @@
       <h2>About Me</h2>
       <p>Web developer who consistently demonstrates the ability to learn, adapt and create at a fast pace. Proficient working within MVC architectures, Restful API’s & Web-sockets . I have seven years experience troubleshooting and creating solutions for internal applications. Efficient in Mac, Windows and Linux environments. </p>
       <div class="quote">"I turn visions into visuals." -<strong> Mario Florence</strong></div>
-      <!-- <a href="/contact" class="reserve-btn">Contact</a> -->
+       <a href="https://www.linkedin.com/in/mario-florence/" class="reserve-btn">LinkedIN</a> 
       </div>
       <div class="col-md-6">
 
@@ -21,3 +21,13 @@
       </section>
       </div>
 </template>
+<script>
+
+export default {
+    methods: {
+        navigateToHome() {
+            this.$router.push({ name: 'home' });
+        }
+    }
+}
+</script>
