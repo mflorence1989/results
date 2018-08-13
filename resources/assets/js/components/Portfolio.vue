@@ -72,6 +72,7 @@
 </template>
 
 <script>
+
 export default {
     methods: {
         navigateToHome() {
