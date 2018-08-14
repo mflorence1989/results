@@ -567,9 +567,9 @@ module.exports = Component.exports
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = __webpack_require__(44)
+var __vue_script__ = __webpack_require__(30)
 /* template */
-var __vue_template__ = __webpack_require__(30)
+var __vue_template__ = __webpack_require__(31)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -716,13 +716,13 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(31)
+  __webpack_require__(32)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = __webpack_require__(33)
+var __vue_script__ = __webpack_require__(34)
 /* template */
-var __vue_template__ = __webpack_require__(34)
+var __vue_template__ = __webpack_require__(35)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -767,13 +767,13 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(35)
+  __webpack_require__(36)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = __webpack_require__(37)
+var __vue_script__ = __webpack_require__(38)
 /* template */
-var __vue_template__ = __webpack_require__(38)
+var __vue_template__ = __webpack_require__(39)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -816,7 +816,7 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(11);
-module.exports = __webpack_require__(40);
+module.exports = __webpack_require__(41);
 
 
 /***/ }),
@@ -840,7 +840,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Portfolio_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_Portfolio_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Experience_vue__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Experience_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_Experience_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__routes__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__routes__ = __webpack_require__(40);
 
 
 
@@ -15292,6 +15292,45 @@ if (false) {
 
 /***/ }),
 /* 30 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    methods: {
+        navigateToHome: function navigateToHome() {
+            this.$router.push({ name: 'home' });
+        }
+    }
+});
+
+/***/ }),
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -15359,13 +15398,13 @@ if (false) {
 }
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(32);
+var content = __webpack_require__(33);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -15385,7 +15424,7 @@ if(false) {
 }
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15399,7 +15438,7 @@ exports.push([module.i, "\n#SpecialMenu{\r\n  padding: 100px 0;\r\n  background:
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15488,7 +15527,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -15620,13 +15659,13 @@ if (false) {
 }
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(36);
+var content = __webpack_require__(37);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -15646,7 +15685,7 @@ if(false) {
 }
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15654,17 +15693,30 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n#Reviews{\r\n  padding: 100px 0;\r\ntext-align:right;\n}\np{\r\n  font-size: 1.2rem;\n}\n.side-img{\r\n  text-align: left;\r\n  position: relative;\n}\nh2{\r\n  margin-bottom: 3rem;\n}\nimg{\r\n  position: absolute;\r\n  height: 300px;\n}\nh4{\r\n  font-weight: 700;\r\n  font-size: 0.9rem;\r\n  margin-bottom: 2rem;\n}\n.author{\r\n  font-size: 0.8rem;\r\n  color: $paragraphColor;\r\n  font-weight: 300;\r\n  text-transform: capitalize;\r\n  margin-bottom: 2rem;\n}\nstrong{\n}\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\n#Reviews{\r\n  padding: 100px 0;\r\ntext-align:right;\n}\np{\r\n  font-size: 0.8rem;\n}\n.side-img{\r\n  text-align: left;\r\n  position: relative;\n}\nh2{\r\n  margin-bottom: 3rem;\n}\nimg{\r\n  position: absolute;\r\n  height: 300px;\n}\nh4{\r\n  font-weight: 700;\r\n  font-size: 0.9rem;\r\n  margin-bottom: 2rem;\n}\n.author{\r\n  font-size: 0.8rem;\r\n  color: $paragraphColor;\r\n  font-weight: 300;\r\n  text-transform: capitalize;\r\n  margin-bottom: 2rem;\n}\nstrong{\n}\r\n\r\n\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -15707,7 +15759,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -15766,7 +15818,19 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", [
           _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "STONEMOR LP - TIER 2 SOFTWARE APPLICATION SUPPORT (2014 -2017)\r\nDebugged internal Applications.\r\nDesigned internal application dashboard.\r\nMaintained hardware & software database.\r\n"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "JEFFERIES LLC - AUDIO VISUAL TECHNICIAN (2011 – 2014)\r\nSet up all audio and visual equipment for large scale banking events.\r\nConfigured video & audio conferences.\r\n"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Tuition.io- Html Email Developer (4-18-current)\r\nCreate & Design Html Email templates.\r\nUX UI design.\r\nLitmus Testing Tools\r\n"
           )
         ]),
         _vm._v(" "),
@@ -15789,7 +15853,7 @@ if (false) {
 }
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15835,52 +15899,10 @@ var routes = [{
 }, { path: '/redirect-me', redirect: { name: 'home' } }, { path: '*', redirect: '/' }];
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    methods: {
-        navigateToHome: function navigateToHome() {
-            this.$router.push({ name: 'home' });
-        }
-    }
-});
 
 /***/ })
 /******/ ]);

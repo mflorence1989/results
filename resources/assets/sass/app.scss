@@ -52,6 +52,12 @@ body {
   }
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  img{
+    position: absolute;
+    height: 250px !important;
+    width: 100px !important;
+
+  }
   #Reviews h2 {
     margin-top: 25rem!important;
     margin-bottom: 1rem!important;
@@ -75,7 +81,8 @@ header{  nav{
       padding: 0px 2px!important;
 
     }
-  }}
+  }
+}
 
   h1{
     padding: 0px 53px!important;
@@ -97,7 +104,9 @@ header{  nav{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+h1{
+  color:grey!important;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
