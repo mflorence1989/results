@@ -10624,7 +10624,7 @@ table {
 
 #TopImg .title h1 {
   text-transform: uppercase;
-  color: black;
+  color: #202020 !important;
   font-weight: 300;
   font-size: 5.9rem;
   font-family: "Dosis", sans-serif;
