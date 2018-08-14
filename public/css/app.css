@@ -11732,6 +11732,15 @@ body {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+  #Reviews h2 {
+    margin-top: 25rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .reserve-btn {
+    margin-bottom: 15px !important;
+  }
+
   h5 {
     color: black !important;
   }
