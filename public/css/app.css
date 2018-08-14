@@ -10624,7 +10624,7 @@ table {
 
 #TopImg .title h1 {
   text-transform: uppercase;
-  color: #202020 !important;
+  color: #202020;
   font-weight: 300;
   font-size: 5.9rem;
   font-family: "Dosis", sans-serif;
@@ -11735,7 +11735,7 @@ body {
   img {
     position: absolute;
     height: 250px !important;
-    width: 100px !important;
+    width: 400px !important;
   }
 
   #Reviews h2 {
@@ -11783,13 +11783,13 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   h1 {
     color: grey !important;
   }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
 
 /* Large devices (laptops/desktops, 992px and up) */
 

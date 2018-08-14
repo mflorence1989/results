@@ -55,7 +55,7 @@ body {
   img{
     position: absolute;
     height: 250px !important;
-    width: 100px !important;
+    width: 400px !important;
 
   }
   #Reviews h2 {
@@ -99,15 +99,15 @@ header{  nav{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
   h1{
     color:grey!important;
 
   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
