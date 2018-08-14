@@ -56,11 +56,11 @@
         <div class="box">
           <div class="box-img-five">
             <div class="price-circle">
-              <i class="fab fa-js"></i>
+              <i class="fab fa-html5"></i>
             </div>
           </div>
-          <a href="http://fierce-savannah-42727.herokuapp.com">Community jobs</a>
-          <p>Website created for community jobs</p>
+          <a href="https://www.tuition.io/">Tuition.io</a>
+          <p>Tuition.io Html Email Template</p>
         </div>
       </div>
     </div>

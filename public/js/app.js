@@ -15633,17 +15633,15 @@ var staticRenderFns = [
         _c("div", { staticClass: "box" }, [
           _c("div", { staticClass: "box-img-five" }, [
             _c("div", { staticClass: "price-circle" }, [
-              _c("i", { staticClass: "fab fa-js" })
+              _c("i", { staticClass: "fab fa-html5" })
             ])
           ]),
           _vm._v(" "),
-          _c(
-            "a",
-            { attrs: { href: "http://fierce-savannah-42727.herokuapp.com" } },
-            [_vm._v("Community jobs")]
-          ),
+          _c("a", { attrs: { href: "https://www.tuition.io/" } }, [
+            _vm._v("Tuition.io")
+          ]),
           _vm._v(" "),
-          _c("p", [_vm._v("Website created for community jobs")])
+          _c("p", [_vm._v("Tuition.io Html Email Template")])
         ])
       ])
     ])
