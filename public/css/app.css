@@ -11777,9 +11777,141 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
+@media only screen and (min-width: 600px) {
+  #Reviews h2 {
+    margin-top: 25rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .reserve-btn {
+    margin-bottom: 15px !important;
+  }
+
+  h5 {
+    color: black !important;
+  }
+
+  h5 strong {
+    color: white !important;
+    padding: 0px 8px !important;
+  }
+
+  header nav {
+    float: left !important;
+  }
+
+  header nav a {
+    display: inline-block !important;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 0px 4px !important;
+  }
+
+  h1 {
+    padding: 0px 53px !important;
+    text-transform: uppercase;
+    color: grey !important;
+    font-weight: 300;
+    font-size: 2.8rem !important;
+    font-family: "Dosis", sans-serif;
+  }
+
+  h1 strong {
+    color: white;
+  }
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 
+@media only screen and (min-width: 768px) {
+  #Reviews h2 {
+    margin-top: 25rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .reserve-btn {
+    margin-bottom: 15px !important;
+  }
+
+  h5 {
+    color: black !important;
+  }
+
+  h5 strong {
+    color: white !important;
+    padding: 0px 8px !important;
+  }
+
+  header nav {
+    float: left !important;
+  }
+
+  header nav a {
+    display: inline-block !important;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 0px 4px !important;
+  }
+
+  h1 {
+    padding: 0px 53px !important;
+    text-transform: uppercase;
+    color: grey !important;
+    font-weight: 300;
+    font-size: 2.8rem !important;
+    font-family: "Dosis", sans-serif;
+  }
+
+  h1 strong {
+    color: white;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  #Reviews h2 {
+    margin-top: 25rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .reserve-btn {
+    margin-bottom: 15px !important;
+  }
+
+  h5 {
+    color: black !important;
+  }
+
+  h5 strong {
+    color: white !important;
+    padding: 0px 8px !important;
+  }
+
+  header nav {
+    float: left !important;
+  }
+
+  header nav a {
+    display: inline-block !important;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 0px 4px !important;
+  }
+
+  h1 {
+    padding: 0px 53px !important;
+    text-transform: uppercase;
+    color: grey !important;
+    font-weight: 300;
+    font-size: 2.8rem !important;
+    font-family: "Dosis", sans-serif;
+  }
+
+  h1 strong {
+    color: white;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
