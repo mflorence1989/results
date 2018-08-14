@@ -15746,7 +15746,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     methods: {
@@ -15816,13 +15815,13 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", [
           _vm._v(
-            "STONEMOR LP - TIER 2 SOFTWARE APPLICATION SUPPORT (2014 -2017)\r\nDebugged internal Applications.\r\nDesigned internal application dashboard.\r\nMaintained hardware & software database.\r\n"
+            "JEFFERIES LLC - AUDIO VISUAL TECHNICIAN (2011 – 2014)\r\nSet up all audio and visual equipment for large scale banking events.\r\nConfigured video & audio conferences.\r\n"
           )
         ]),
         _vm._v(" "),
         _c("p", [
           _vm._v(
-            "JEFFERIES LLC - AUDIO VISUAL TECHNICIAN (2011 – 2014)\r\nSet up all audio and visual equipment for large scale banking events.\r\nConfigured video & audio conferences.\r\n"
+            "STONEMOR LP - TIER 2 SOFTWARE APPLICATION SUPPORT (2014 -2017)\r\nDebugged internal Applications.\r\nDesigned internal application dashboard.\r\nMaintained hardware & software database.\r\n"
           )
         ]),
         _vm._v(" "),
@@ -15833,9 +15832,9 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "author" }, [
-          _c("strong", [_vm._v("1-1-2013")]),
+          _c("strong", [_vm._v("1-2011")]),
           _vm._v(" - "),
-          _c("strong", [_vm._v("4-19-1989")])
+          _c("strong", [_vm._v("-2018")])
         ])
       ])
     ])

@@ -17,15 +17,14 @@
 <div class="col-md-4">
 <h2> Technology Experience</h2>
 <h5>Web Developement + Support</h5>
-
+<p>JEFFERIES LLC - AUDIO VISUAL TECHNICIAN (2011 – 2014)
+Set up all audio and visual equipment for large scale banking events.
+Configured video & audio conferences.
+</p>
 <p>STONEMOR LP - TIER 2 SOFTWARE APPLICATION SUPPORT (2014 -2017)
 Debugged internal Applications.
 Designed internal application dashboard.
 Maintained hardware & software database.
-</p>
-<p>JEFFERIES LLC - AUDIO VISUAL TECHNICIAN (2011 – 2014)
-Set up all audio and visual equipment for large scale banking events.
-Configured video & audio conferences.
 </p>
 <p>Tuition.io- Html Email Developer (4-18-current)
 Create & Design Html Email templates.
@@ -33,7 +32,7 @@ UX UI design.
 Litmus Testing Tools
 </p>
 <div class="author">
-  <strong>1-1-2013</strong> - <strong>4-19-1989</strong>
+  <strong>1-2011</strong> - <strong>-2018</strong>
 </div>
 
 </div>
