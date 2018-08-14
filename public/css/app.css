@@ -11772,7 +11772,7 @@ body {
     text-transform: uppercase;
     color: grey !important;
     font-weight: 300;
-    font-size: 2.8rem !important;
+    font-size: 3.8rem !important;
     font-family: "Dosis", sans-serif;
   }
 
@@ -11785,7 +11785,7 @@ body {
 
 @media only screen and (min-width: 600px) {
   h1 {
-    color: grey !important;
+    color: grey;
   }
 }
 
