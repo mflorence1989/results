@@ -3,7 +3,7 @@
   <div class="container">
   <div class="title">
   <h5>
-  Web developer
+  <strong>Web</strong> developer
   </h5>
   <h1>
   <strong>M</strong>ario Florence

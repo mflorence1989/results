@@ -27,6 +27,7 @@
   display: inline-block;
 }
 @media #{$breakpoint-xs} {
+
   .container {
     width: 95%;
     max-width: $grid-max-width;

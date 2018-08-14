@@ -15265,7 +15265,7 @@ var staticRenderFns = [
     return _c("section", { attrs: { id: "TopImg" } }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "title" }, [
-          _c("h5", [_vm._v("\nWeb developer\n")]),
+          _c("h5", [_c("strong", [_vm._v("Web")]), _vm._v(" developer\n")]),
           _vm._v(" "),
           _c("h1", [_c("strong", [_vm._v("M")]), _vm._v("ario Florence\n")])
         ]),
