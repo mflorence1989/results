@@ -15272,9 +15272,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "contact-info" }, [
           _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "booking" }, [_vm._v("Philadelphia,Pa")]),
-            _vm._v(" "),
-            _c("h2", [_vm._v("(267) - 982 - 3402")])
+            _c("div", { staticClass: "booking" }, [_vm._v("Philadelphia,Pa")])
           ])
         ])
       ])
