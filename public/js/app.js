@@ -15670,7 +15670,7 @@ var staticRenderFns = [
             _vm._v("Tuition.io")
           ]),
           _vm._v(" "),
-          _c("p", [_vm._v("Tuition.io Html Email Template")])
+          _c("p", [_vm._v("PSD to HTML")])
         ])
       ])
     ])

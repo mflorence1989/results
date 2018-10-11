@@ -72,7 +72,7 @@
             </div>
           </div>
           <a href="https://www.tuition.io/">Tuition.io</a>
-          <p>Tuition.io Html Email Template</p>
+          <p>PSD to HTML</p>
         </div>
       </div>
     </div>
