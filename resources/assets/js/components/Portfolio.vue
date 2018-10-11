@@ -63,6 +63,18 @@
           <p>Tuition.io Html Email Template</p>
         </div>
       </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-img-five">
+            <div class="price-circle">
+              <i class="fab fa-html5"></i>
+            </div>
+          </div>
+          <a href="https://www.tuition.io/">Tuition.io</a>
+          <p>Tuition.io Html Email Template</p>
+        </div>
+      </div>
     </div>
 
   </div>
