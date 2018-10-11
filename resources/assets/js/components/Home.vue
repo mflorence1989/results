@@ -12,8 +12,9 @@
 
   <div class="contact-info">
   <div class="container">
+    <h2> 267 - 748 - 7107</h2>
   <div class="booking">Philadelphia,Pa</div>
-  <h2> 267 - 748 - 7107</h2>
+
 
       </div>
       </div>

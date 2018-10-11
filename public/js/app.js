@@ -15209,7 +15209,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -15220,6 +15220,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
 //
 //
 //
@@ -15272,9 +15273,9 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "contact-info" }, [
           _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "booking" }, [_vm._v("Philadelphia,Pa")]),
+            _c("h2", [_vm._v(" 267 - 748 - 7107")]),
             _vm._v(" "),
-            _c("h2", [_vm._v(" 267 - 748 - 7107")])
+            _c("div", { staticClass: "booking" }, [_vm._v("Philadelphia,Pa")])
           ])
         ])
       ])
